@@ -18,6 +18,12 @@ const eventsConfig = [
         type: 'count-up'
     },
     {
+        id: 'sara-birthday',
+        title: '...',
+        date: '2026-02-16T00:00-05:00',
+        type: 'count-down'
+    },
+    {
         id: 'orbits',
         title: 'Proyecto órbitas',
         date: '2025-07-20T18:58-05:00',
@@ -134,3 +140,4 @@ function updateTimers() {
 
 
 document.addEventListener('DOMContentLoaded', initTimers);
+
