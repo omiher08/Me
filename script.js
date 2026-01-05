@@ -2,13 +2,25 @@ const eventsConfig = [
     {
         id: 'birth',
         title: 'Mi vida',
-        date: '2008-06-06T18:00-05:00', 
+        date: '2008-06-06T00:00-05:00', 
         type: 'count-up'
+    },
+    {
+        id: 'birth-countdown',
+        title: 'Cumpleaños :)',
+        date: '2026-06-06T00:00-05:00',
+        type: 'count-down'
     },
     {
         id: 'sara',
         title: 'Conocí a Sara',
         date: '2024-09-24T16:00-05:00',
+        type: 'count-up'
+    },
+    {
+        id: 'orbits',
+        title: 'Proyecto órbitas',
+        date: '2025-07-20T18:58-05:00',
         type: 'count-up'
     },
     {
@@ -18,11 +30,23 @@ const eventsConfig = [
         type: 'count-up'
     },
     {
+        id: 'school',
+        title: 'Terminé el colegio',
+        date: '2025-11-13T13:20-05:00',
+        type: 'count-up'
+    },
+    {
         id: 'university',
         title: 'Universidad',
         date: '2026-02-02T07:00-05:00',
         type: 'count-down',
-    }
+    },
+    {
+        id: 'year',
+        title: '2026',
+        date: '2026-12-31T23:59:59-05:00',
+        type: 'count-down'
+    },
 ];
 
 const container = document.getElementById('timers-container');
@@ -107,5 +131,6 @@ function updateTimers() {
         timerElement.querySelector('[data-unit="seconds"]').textContent = pad(seconds);
     });
 }
+
 
 document.addEventListener('DOMContentLoaded', initTimers);
