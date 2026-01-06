@@ -31,7 +31,7 @@ const eventsConfig = [
     },
     {
         id: 'uncertainty-end',
-        title: '??????',
+        title: 'Checkpoint',
         date: '2026-04-12T12:00-05:00',
         type: 'count-down'
     },
