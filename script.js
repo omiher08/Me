@@ -30,7 +30,19 @@ const eventsConfig = [
         type: 'count-up'
     },
     {
-        id: 'uncertainty-end',
+        id: 'courage',
+        title: ':)',
+        date: '2025-10-24T20:13-05:00',
+        type: 'count-up'
+    },
+    {
+        id: 'uncertainty',
+        title: '???',
+        date: '2025-11-19T21:27-05:00',
+        type: 'count-up'
+    },
+    {
+        id: 'checkpoint',
         title: 'Checkpoint',
         date: '2026-04-12T12:00-05:00',
         type: 'count-down'
@@ -140,5 +152,6 @@ function updateTimers() {
 
 
 document.addEventListener('DOMContentLoaded', initTimers);
+
 
 
