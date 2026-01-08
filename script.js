@@ -2,7 +2,7 @@ const eventsConfig = [
     {
         id: 'birth',
         title: 'Mi vida',
-        date: '2008-06-06T00:00-05:00', 
+        date: '2008-06-06T18:00-05:00', 
         type: 'count-up'
     },
     {
@@ -19,9 +19,15 @@ const eventsConfig = [
     },
     {
         id: 'sara-birthday',
-        title: '...',
+        title: 'Cumpleaños Sara',
         date: '2026-02-16T00:00-05:00',
         type: 'count-down'
+    },
+    {
+        id: 'streak',
+        title: 'Tu racha (: 🙃',
+        date: '2026-01-04T00:43-05:00',
+        type: 'count-up'
     },
     {
         id: 'orbits',
@@ -30,7 +36,7 @@ const eventsConfig = [
         type: 'count-up'
     },
     {
-        id: 'courage',
+        id: 'luv',
         title: ':)',
         date: '2025-10-24T20:13-05:00',
         type: 'count-up'
@@ -152,6 +158,7 @@ function updateTimers() {
 
 
 document.addEventListener('DOMContentLoaded', initTimers);
+
 
 
 
