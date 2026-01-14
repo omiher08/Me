@@ -26,7 +26,7 @@ const eventsConfig = [
     {
         id: 'streak',
         title: 'Tu racha 🙃',
-        date: '2026-01-04T00:43-05:00',
+        date: '2026-01-12T00:53-05:00',
         type: 'count-up'
     },
     {
@@ -158,6 +158,7 @@ function updateTimers() {
 
 
 document.addEventListener('DOMContentLoaded', initTimers);
+
 
 
 
