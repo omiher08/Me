@@ -26,7 +26,7 @@ const eventsConfig = [
     {
         id: 'streak',
         title: 'Tu racha 🙃',
-        date: '2026-01-12T00:53-05:00',
+        date: '2026-01-15T23:58-05:00',
         type: 'count-up'
     },
     {
